@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-26 20:38\n"
+"PO-Revision-Date: 2021-03-26 20:58\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -518,7 +518,7 @@ msgstr "Erledige die Kommunikation zwischen Kernel und Frontend"
 
 #: spyder/dependencies.py:109
 msgid "Create projects from cookiecutter templates"
-msgstr ""
+msgstr "Projekte aus Cookiecutter-Vorlagen erstellen"
 
 #: spyder/dependencies.py:113
 msgid "Compute text file diff changes during edition"
@@ -730,7 +730,7 @@ msgstr "Erscheinungsbild"
 
 #: spyder/plugins/appearance/plugin.py:43
 msgid "Manage application appearance and themes."
-msgstr ""
+msgstr "Aussehen und Themen der Anwendung verwalten."
 
 #: spyder/plugins/appearance/widgets.py:91
 msgid "Text"
@@ -1279,11 +1279,11 @@ msgstr "Ignorieren Sie zusätzlich zu der angegebenen Konvention die folgenden F
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/docstring.py:143
 msgid "Directory patterns listed for matching should be valid regular expressions"
-msgstr ""
+msgstr "Die zum Abgleich aufgeführten Verzeichnismuster sollten gültige reguläre Ausdrücke sein"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/docstring.py:146
 msgid "File patterns listed for matching should be valid regular expressions"
-msgstr ""
+msgstr "Die zum Abgleich aufgeführten Dateimuster sollten gültige reguläre Ausdrücke sein"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/formatting.py:27
 msgid "Code style and formatting"
@@ -1701,7 +1701,7 @@ msgstr "Spyder konnte {0}/{1} Schnipsel korrekt laden. Bitte überprüfen Sie di
 
 #: spyder/plugins/completion/providers/snippets/provider.py:53
 msgid "Text snippets"
-msgstr ""
+msgstr "Textschnipsel"
 
 #: spyder/plugins/completion/providers/snippets/widgets/snippetsconfig.py:219
 msgid "Valid snippet"
@@ -3512,7 +3512,7 @@ msgstr "In Dateien &suchen"
 
 #: spyder/plugins/findinfiles/widgets.py:975 spyder/plugins/findinfiles/widgets.py:976
 msgid "Exclude case sensitive"
-msgstr ""
+msgstr "Groß-/Kleinschreibung ausschließen"
 
 #: spyder/plugins/findinfiles/widgets.py:984 spyder/plugins/findinfiles/widgets.py:985 spyder/plugins/findinfiles/widgets.py:1073
 msgid "Show advanced options"
@@ -3672,7 +3672,7 @@ msgstr "Chronik"
 
 #: spyder/plugins/history/plugin.py:54
 msgid "Provide command history for IPython Consoles"
-msgstr ""
+msgstr "Befehlsverlauf für IPython-Konsolen bereitstellen"
 
 #: spyder/plugins/ipythonconsole/confpage.py:27 spyder/plugins/ipythonconsole/plugin.py:517
 msgid "IPython console"
@@ -4400,7 +4400,7 @@ msgstr "Vollbildmodus"
 
 #: spyder/plugins/layout/container.py:106
 msgid "For fullscreen mode use the macOS built-in feature"
-msgstr ""
+msgstr "Verwenden Sie die in macOS eingebaute Funktion für den Vollbildmodus"
 
 #: spyder/plugins/layout/container.py:123
 msgid "Spyder Default Layout"
@@ -4596,7 +4596,7 @@ msgstr "Bitte beachten Sie, dass diese Änderungen nur auf neue IPython-Konsolen
 
 #: spyder/plugins/maininterpreter/plugin.py:47
 msgid "Main Python interpreter to open consoles."
-msgstr ""
+msgstr "Haupt-Python-Interpreter zum Öffnen von Konsolen."
 
 #: spyder/plugins/maininterpreter/widgets/status.py:160
 msgid "Change default environment in Preferences..."
@@ -4608,7 +4608,7 @@ msgstr "Hauptmenüs"
 
 #: spyder/plugins/mainmenu/plugin.py:44
 msgid "Provide main application menu management."
-msgstr ""
+msgstr "Verwaltung des Hauptanwendungsmenüs bereitstellen."
 
 #: spyder/plugins/mainmenu/plugin.py:60
 msgid "C&onsoles"
@@ -4800,7 +4800,7 @@ msgstr "Gliederungsmanager anzeigen/ausblenden"
 
 #: spyder/plugins/plots/plugin.py:42
 msgid "Display, explore and save console generated plots."
-msgstr ""
+msgstr "Anzeigen, Erkunden und Speichern von konsolengenerierten Plots."
 
 #: spyder/plugins/plots/widgets/figurebrowser.py:481
 msgid "The image is broken, please try to generate it again"
@@ -5606,7 +5606,7 @@ msgstr "Variablenmanager"
 
 #: spyder/plugins/variableexplorer/plugin.py:43
 msgid "Display, explore load and save variables in the current namespace."
-msgstr ""
+msgstr "Anzeigen, Erkunden, Laden und Speichern von Variablen im aktuellen Namensraum."
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:568
 msgid "It was not possible to copy values for this array"
@@ -5898,23 +5898,23 @@ msgstr "Private Variablen ausschließen"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:163
 msgid "Exclude variables that start with an underscore"
-msgstr ""
+msgstr "Variablen ausschließen, die mit einem Unterstrich beginnen"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:170
 msgid "Exclude all-uppercase variables"
-msgstr ""
+msgstr "Vollständig in Großbuchstaben geschriebene Variablen ausschließen"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:171
 msgid "Exclude variables whose name is uppercase"
-msgstr ""
+msgstr "Variablen ausschließen, deren Name in Großbuchstaben geschrieben ist"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:178
 msgid "Exclude capitalized variables"
-msgstr ""
+msgstr "Großgeschriebene Variablen ausschließen"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:179
 msgid "Exclude variables whose name starts with a capital letter"
-msgstr ""
+msgstr "Variablen ausschließen, deren Name mit einem Großbuchstaben beginnt"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:188
 msgid "Exclude references to data types that don't have an specialized viewer or can't be edited."
