@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-26 18:20\n"
+"PO-Revision-Date: 2021-03-26 19:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: spyder/api/widgets/__init__.py:368
 msgid "Main widget toolbar"
-msgstr ""
+msgstr "Barra principal de widget"
 
 #: spyder/api/widgets/__init__.py:373
 msgid "Main widget corner toolbar"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: spyder/api/widgets/__init__.py:380
 msgid "Options menu"
-msgstr ""
+msgstr "Menú de opciones"
 
 #: spyder/api/widgets/__init__.py:431 spyder/plugins/base.py:175 spyder/plugins/editor/widgets/editor.py:674 spyder/plugins/ipythonconsole/widgets/client.py:502 spyder/plugins/variableexplorer/widgets/objectexplorer/objectexplorer.py:201
 msgid "Options"
@@ -59,11 +59,11 @@ msgstr "Cerrar este panel"
 
 #: spyder/app/mainwindow.py:200
 msgid "Compatibility Check"
-msgstr ""
+msgstr "Verificación de compatibilidad"
 
 #: spyder/app/mainwindow.py:219
 msgid "Loading {}..."
-msgstr ""
+msgstr "Cargando {}..."
 
 #: spyder/app/mainwindow.py:686
 msgid "An error occurred while creating a socket needed by Spyder. Please, try to run as an Administrator from cmd.exe the following command and then restart your computer: <br><br><span style='color: {color}'><b>netsh winsock reset </b></span><br>"
@@ -89,7 +89,7 @@ msgstr "Terminal interna de Spyder!\n\n"
 
 #: spyder/app/mainwindow.py:917
 msgid "Loading old third-party plugins..."
-msgstr ""
+msgstr "Cargando plugins antiguos de terceros..."
 
 #: spyder/app/mainwindow.py:974 spyder/plugins/editor/widgets/editor.py:280
 msgid "File switcher..."
@@ -6385,11 +6385,11 @@ msgstr ""
 
 #: spyder/widgets/browser.py:164
 msgid "Inspect"
-msgstr ""
+msgstr "Inspeccionar"
 
 #: spyder/widgets/browser.py:172
 msgid "Refresh"
-msgstr ""
+msgstr "Actualizar"
 
 #: spyder/widgets/browser.py:430
 msgid "Address:"
@@ -6565,7 +6565,7 @@ msgstr "Buscar texto"
 
 #: spyder/widgets/findreplace.py:97
 msgid "Replace text"
-msgstr ""
+msgstr "Reemplazar texto"
 
 #: spyder/widgets/findreplace.py:102
 msgid "Find previous"
