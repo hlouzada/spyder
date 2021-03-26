@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-26 18:20\n"
+"PO-Revision-Date: 2021-03-26 20:24\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: spyder/api/widgets/__init__.py:380
 msgid "Options menu"
-msgstr ""
+msgstr "Optionsmenü"
 
 #: spyder/api/widgets/__init__.py:431 spyder/plugins/base.py:175 spyder/plugins/editor/widgets/editor.py:674 spyder/plugins/ipythonconsole/widgets/client.py:502 spyder/plugins/variableexplorer/widgets/objectexplorer/objectexplorer.py:201
 msgid "Options"
@@ -59,11 +59,11 @@ msgstr "Den Bereich schließen"
 
 #: spyder/app/mainwindow.py:200
 msgid "Compatibility Check"
-msgstr ""
+msgstr "Kompatibilitätsprüfung"
 
 #: spyder/app/mainwindow.py:219
 msgid "Loading {}..."
-msgstr ""
+msgstr "{} wird geladen..."
 
 #: spyder/app/mainwindow.py:686
 msgid "An error occurred while creating a socket needed by Spyder. Please, try to run as an Administrator from cmd.exe the following command and then restart your computer: <br><br><span style='color: {color}'><b>netsh winsock reset </b></span><br>"
@@ -948,7 +948,7 @@ msgstr "<b>Sie haben fehlende Abhängigkeiten!</b><br><br><tt>%s</tt><br><b>Bitt
 
 #: spyder/plugins/application/plugin.py:67
 msgid "Application"
-msgstr ""
+msgstr "Anwendung"
 
 #: spyder/plugins/application/plugin.py:73
 msgid "Provide main application base actions."
@@ -988,11 +988,11 @@ msgstr "Haltepunkte in allen Dateien löschen"
 
 #: spyder/plugins/breakpoints/widgets/main_widget.py:213
 msgid "Clear selected breakpoint"
-msgstr ""
+msgstr "Ausgewählten Haltepunkt löschen"
 
 #: spyder/plugins/breakpoints/widgets/main_widget.py:218
 msgid "Edit selected breakpoint"
-msgstr ""
+msgstr "Ausgewählten Haltepunkt bearbeiten"
 
 #: spyder/plugins/completion/confpage.py:27
 msgid "Plugin status"
@@ -1044,7 +1044,7 @@ msgstr "Benachrichtigen Sie mich, wenn Kite fehlende Ergänzungen liefern kann (
 
 #: spyder/plugins/completion/confpage.py:75
 msgid "Completions"
-msgstr ""
+msgstr "Vervollständigungen"
 
 #: spyder/plugins/completion/plugin.py:246
 msgid "Completion and linting"
@@ -3560,7 +3560,7 @@ msgstr ""
 
 #: spyder/plugins/help/plugin.py:127
 msgid "Spyder tutorial"
-msgstr ""
+msgstr "Spyder-Tutorial"
 
 #: spyder/plugins/help/utils/sphinxify.py:247 spyder/plugins/help/utils/sphinxify.py:257
 msgid "It was not possible to generate rich text help for this object.</br>Please see it in plain text."
@@ -3604,7 +3604,7 @@ msgstr "Klartext"
 
 #: spyder/plugins/help/widgets.py:392
 msgid "Lock/Unlock"
-msgstr ""
+msgstr "Sperren/Entsperren"
 
 #: spyder/plugins/help/widgets.py:400 spyder/plugins/onlinehelp/widgets.py:195 spyder/plugins/onlinehelp/widgets.py:196 spyder/widgets/browser.py:368
 msgid "Home"
@@ -4446,19 +4446,19 @@ msgstr ""
 
 #: spyder/plugins/layout/layouts.py:107
 msgid "Horizontal split"
-msgstr ""
+msgstr "Horizontale Teilung"
 
 #: spyder/plugins/layout/layouts.py:133
 msgid "Vertical split"
-msgstr ""
+msgstr "Vertikale Teilung"
 
 #: spyder/plugins/layout/layouts.py:170
 msgid "RStudio"
-msgstr ""
+msgstr "RStudio"
 
 #: spyder/plugins/layout/layouts.py:223
 msgid "Matlab"
-msgstr ""
+msgstr "Matlab"
 
 #: spyder/plugins/layout/layouts.py:250
 msgid "testing layout"
@@ -5282,7 +5282,7 @@ msgstr ""
 
 #: spyder/plugins/pylint/plugin.py:62
 msgid "Run Code Analysis."
-msgstr ""
+msgstr "Codeanalyse ausführen."
 
 #: spyder/plugins/run/confpage.py:41
 msgid "The following are the default options for running files.These options may be overriden using the <b>Configuration per file</b> entry of the <b>Run</b> menu."
