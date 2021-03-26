@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-26 20:24\n"
+"PO-Revision-Date: 2021-03-26 20:38\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -964,7 +964,7 @@ msgstr "Haltepunkte"
 
 #: spyder/plugins/breakpoints/plugin.py:94
 msgid "Manage code breakpoints in a unified pane."
-msgstr ""
+msgstr "Code-Haltepunkte in einem einheitlichen Fensterbereich verwalten."
 
 #: spyder/plugins/breakpoints/plugin.py:123
 msgid "List breakpoints"
@@ -1371,11 +1371,11 @@ msgstr "Code-Formatierung"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/formatting.py:162
 msgid "Directory patterns listed for exclusion should be valid regular expressions"
-msgstr ""
+msgstr "Die zum Ausschluss aufgeführten Verzeichnismuster sollten gültige reguläre Ausdrücke sein"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/formatting.py:165
 msgid "File patterns listed for exclusion should be valid regular expressions"
-msgstr ""
+msgstr "Die zum Ausschluss aufgeführten Dateimuster sollten gültige reguläre Ausdrücke sein"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/introspection.py:27
 msgid "Introspection"
@@ -3396,7 +3396,7 @@ msgstr "Geben Sie eine neue Dateierweiterung ein. Sie können mehrere durch Komm
 
 #: spyder/plugins/findinfiles/plugin.py:52
 msgid "Search for strings of text in files."
-msgstr ""
+msgstr "Suche nach Textzeichenketten in Dateien."
 
 #: spyder/plugins/findinfiles/plugin.py:76
 msgid "Find in files"
@@ -4416,7 +4416,7 @@ msgstr "Layout-Einstellungen"
 
 #: spyder/plugins/layout/container.py:143
 msgid "Reset to Spyder default"
-msgstr ""
+msgstr "Auf Spyder-Standardeinstellung zurücksetzen"
 
 #: spyder/plugins/layout/container.py:151
 msgid "Use next layout"
@@ -4442,7 +4442,7 @@ msgstr "Das Fenster-Layout wird auf die Standardeinstellungen zurückgesetzt: Di
 
 #: spyder/plugins/layout/layouts.py:81
 msgid "Spyder default"
-msgstr ""
+msgstr "Spyder-Standardeinstellung"
 
 #: spyder/plugins/layout/layouts.py:107
 msgid "Horizontal split"
@@ -4494,7 +4494,7 @@ msgstr "Bereich auf seine ursprüngliche Größe zurücksetzen"
 
 #: spyder/plugins/layout/plugin.py:765
 msgid "Unlock panes and toolbars"
-msgstr ""
+msgstr "Fenster und Werkzeugleisten entsperren"
 
 #: spyder/plugins/layout/plugin.py:768
 msgid "Lock panes and toolbars"
@@ -4592,7 +4592,7 @@ msgstr "Die folgenden Module sind auf Ihrem Rechner nicht installiert:\n"
 
 #: spyder/plugins/maininterpreter/confpage.py:252
 msgid "Please note that these changes will be applied only to new IPython consoles"
-msgstr ""
+msgstr "Bitte beachten Sie, dass diese Änderungen nur auf neue IPython-Konsolen angewendet werden"
 
 #: spyder/plugins/maininterpreter/plugin.py:47
 msgid "Main Python interpreter to open consoles."
@@ -4604,7 +4604,7 @@ msgstr "Standardumgebung in den Einstellungen ändern..."
 
 #: spyder/plugins/mainmenu/plugin.py:38
 msgid "Main menus"
-msgstr ""
+msgstr "Hauptmenüs"
 
 #: spyder/plugins/mainmenu/plugin.py:44
 msgid "Provide main application menu management."
@@ -4840,7 +4840,7 @@ msgstr "Alle Plots speichern..."
 
 #: spyder/plugins/plots/widgets/main_widget.py:235
 msgid "Copy image"
-msgstr ""
+msgstr "Bild kopieren"
 
 #: spyder/plugins/plots/widgets/main_widget.py:236
 msgid "Copy plot to clipboard as image"
@@ -4950,7 +4950,7 @@ msgstr "Programmausgabe anzeigen"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:219
 msgid "Collapse"
-msgstr ""
+msgstr "Einklappen"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:220
 msgid "Collapse one level up"
@@ -4958,7 +4958,7 @@ msgstr "Eine Ebene höher einklappen"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:226
 msgid "Expand"
-msgstr ""
+msgstr "Ausklappen"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:227
 msgid "Expand one level down"
@@ -4994,7 +4994,7 @@ msgstr "die Python-Profiler-Module"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:299
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:366
 msgid "Save profiler result"
@@ -5106,7 +5106,7 @@ msgstr "Maximale Anzahl der letzten Projekte..."
 
 #: spyder/plugins/projects/plugin.py:368
 msgid "<b>{}</b> is not a registered Spyder project type!"
-msgstr ""
+msgstr "<b>{}</b> ist kein registrierter Spyder-Projekttyp!"
 
 #: spyder/plugins/projects/plugin.py:379
 msgid "Open project"
@@ -5278,7 +5278,7 @@ msgstr "vorheriger Durchlauf:"
 
 #: spyder/plugins/pylint/main_widget.py:760
 msgid "Code analysis output"
-msgstr ""
+msgstr "Codeanalyse-Ausgabe"
 
 #: spyder/plugins/pylint/plugin.py:62
 msgid "Run Code Analysis."
@@ -5538,7 +5538,7 @@ msgstr ""
 
 #: spyder/plugins/statusbar/widgets/status.py:34
 msgid "Global memory usage"
-msgstr ""
+msgstr "Globale Speicherauslastung"
 
 #: spyder/plugins/statusbar/widgets/status.py:48
 msgid "CPU usage"
@@ -5562,7 +5562,7 @@ msgstr "Werkzeugleisten ausblenden"
 
 #: spyder/plugins/toolbar/plugin.py:36
 msgid "Toolbar"
-msgstr ""
+msgstr "Werkzeugleiste"
 
 #: spyder/plugins/toolbar/plugin.py:39
 msgid "Application toolbars management."
@@ -5894,7 +5894,7 @@ msgstr "<b>Der nächste Schritt kann nicht stattfinden</b><br><br>Bitte überpr�
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:162
 msgid "Exclude private variables"
-msgstr ""
+msgstr "Private Variablen ausschließen"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:163
 msgid "Exclude variables that start with an underscore"
@@ -6367,11 +6367,11 @@ msgstr ""
 
 #: spyder/widgets/browser.py:131
 msgid "Select all"
-msgstr ""
+msgstr "Alles auswählen"
 
 #: spyder/widgets/browser.py:164
 msgid "Inspect"
-msgstr ""
+msgstr "Inspizieren"
 
 #: spyder/widgets/browser.py:172
 msgid "Refresh"
@@ -6551,7 +6551,7 @@ msgstr "Suchbegriff"
 
 #: spyder/widgets/findreplace.py:97
 msgid "Replace text"
-msgstr ""
+msgstr "Text ersetzen"
 
 #: spyder/widgets/findreplace.py:102
 msgid "Find previous"
