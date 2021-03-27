@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-26 20:58\n"
+"PO-Revision-Date: 2021-03-27 14:04\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "{} wird geladen..."
 
 #: spyder/app/mainwindow.py:686
 msgid "An error occurred while creating a socket needed by Spyder. Please, try to run as an Administrator from cmd.exe the following command and then restart your computer: <br><br><span style='color: {color}'><b>netsh winsock reset </b></span><br>"
-msgstr ""
+msgstr "Beim Erstellen eines von Spyder benötigten Sockets ist ein Fehler aufgetreten. Bitte versuchen Sie, als Administrator von cmd.exe aus, den folgenden Befehl auszuführen und starten Sie dann Ihren Computer neu: <br><br><span style='color: {color}'><b>netsh winsock reset </b></span><br>"
 
 #: spyder/app/mainwindow.py:789 spyder/app/tour.py:1427
 msgid "Welcome to Spyder!"
@@ -1000,7 +1000,7 @@ msgstr ""
 
 #: spyder/plugins/completion/confpage.py:30
 msgid "Enable code completion and linting in the editor"
-msgstr ""
+msgstr "Code-Vervollständigung und Linting im Editor aktivieren"
 
 #: spyder/plugins/completion/confpage.py:41
 msgid "Providers"
@@ -1008,7 +1008,7 @@ msgstr "Provider"
 
 #: spyder/plugins/completion/confpage.py:43
 msgid "Enable {0} provider"
-msgstr ""
+msgstr "{0} Anbieter aktivieren"
 
 #: spyder/plugins/completion/confpage.py:51
 msgid "Time to wait for all providers to return (ms):"
@@ -1016,7 +1016,7 @@ msgstr "Wartezeit bis alle Provider antworten müssen (ms):"
 
 #: spyder/plugins/completion/confpage.py:53
 msgid "Beyond this timeout the first available provider will be returned"
-msgstr ""
+msgstr "Nach dieser Zeitüberschreitung wird der erste verfügbare Anbieter zurückgegeben"
 
 #: spyder/plugins/completion/confpage.py:56
 msgid "Show completion details"
@@ -1056,7 +1056,7 @@ msgstr ""
 
 #: spyder/plugins/completion/providers/fallback/provider.py:42
 msgid "Fallback"
-msgstr ""
+msgstr "Rückfall"
 
 #: spyder/plugins/completion/providers/kite/client.py:120
 msgid "<code>{error}</code><br><br>Note: If you are using a VPN, please don't route requests to localhost/127.0.0.1 with it"
@@ -1468,7 +1468,7 @@ msgstr "Den aktuell ausgewählten Server löschen"
 
 #: spyder/plugins/completion/providers/languageserver/provider.py:273
 msgid "Language Server Protocol (LSP)"
-msgstr ""
+msgstr "Sprachserver-Protokoll (LSP)"
 
 #: spyder/plugins/completion/providers/languageserver/provider.py:391
 msgid "It appears there is no {language} language server listening at address:<br><br><tt>{host}:{port}</tt><br><br>Therefore, completion and linting for {language} will not work during this session."
@@ -1769,7 +1769,7 @@ msgstr "Interne Konsole"
 
 #: spyder/plugins/console/plugin.py:89
 msgid "Internal console running Spyder."
-msgstr ""
+msgstr "Interne Konsole mit Spyder."
 
 #: spyder/plugins/console/plugin.py:114
 msgid "<h3>Spyder crashed during last session</h3>"
@@ -5414,7 +5414,7 @@ msgstr "Tastenkombinationen"
 
 #: spyder/plugins/shortcuts/plugin.py:66
 msgid "Manage application, widget and actions shortcuts."
-msgstr ""
+msgstr "Tastaturkürzel für Anwendungen, Steuerelemente und Aktionen verwalten."
 
 #: spyder/plugins/shortcuts/plugin.py:79
 msgid "Shortcuts Summary"
