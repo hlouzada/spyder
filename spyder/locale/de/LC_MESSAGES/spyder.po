@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-27 14:04\n"
+"PO-Revision-Date: 2021-03-27 14:10\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -952,7 +952,7 @@ msgstr "Anwendung"
 
 #: spyder/plugins/application/plugin.py:73
 msgid "Provide main application base actions."
-msgstr ""
+msgstr "Basisaktionen der Hauptanwendung bereitstellen."
 
 #: spyder/plugins/application/plugin.py:92
 msgid "Report issue..."
@@ -996,7 +996,7 @@ msgstr "Ausgewählten Haltepunkt bearbeiten"
 
 #: spyder/plugins/completion/confpage.py:27
 msgid "Plugin status"
-msgstr ""
+msgstr "Plugin-Status"
 
 #: spyder/plugins/completion/confpage.py:30
 msgid "Enable code completion and linting in the editor"
@@ -3068,7 +3068,7 @@ msgstr "Dateizuordnungen"
 
 #: spyder/plugins/explorer/plugin.py:160
 msgid "Explore files in the computer with a tree view."
-msgstr ""
+msgstr "Dateien auf dem Computer mit einer Baumansicht erkunden."
 
 #: spyder/plugins/explorer/widgets/explorer.py:290
 msgid "File..."
@@ -3556,7 +3556,7 @@ msgstr "Sphinx %s ist derzeit installiert."
 
 #: spyder/plugins/help/plugin.py:79
 msgid "Get rich text documentation from the editor and the console"
-msgstr ""
+msgstr "Abrufen von Rich-Text-Dokumentation aus dem Editor und der Konsole"
 
 #: spyder/plugins/help/plugin.py:127
 msgid "Spyder tutorial"
@@ -4624,7 +4624,7 @@ msgstr "Online-Hilfe"
 
 #: spyder/plugins/onlinehelp/plugin.py:52
 msgid "Browse and search the currently installed modules interactively."
-msgstr ""
+msgstr "Interaktives Durchsuchen der aktuell installierten Module."
 
 #: spyder/plugins/onlinehelp/pydoc_patch.py:802
 msgid "There was an error while retrieving documentation for the object you requested: Object could not be found"
@@ -4912,7 +4912,7 @@ msgstr "Einstellungen"
 
 #: spyder/plugins/preferences/plugin.py:237
 msgid "This plugin provides access to Spyder preferences page"
-msgstr ""
+msgstr "Dieses Plugin bietet Zugriff auf die Spyder-Einstellungsseite"
 
 #: spyder/plugins/preferences/widgets/container.py:109
 msgid "Reset Spyder to factory defaults"
@@ -5534,7 +5534,7 @@ msgstr "Statusleiste"
 
 #: spyder/plugins/statusbar/plugin.py:51
 msgid "Provide Core user interface management"
-msgstr ""
+msgstr "Verwaltung der Kern-Benutzeroberfläche bereitstellen"
 
 #: spyder/plugins/statusbar/widgets/status.py:34
 msgid "Global memory usage"
@@ -5566,7 +5566,7 @@ msgstr "Werkzeugleiste"
 
 #: spyder/plugins/toolbar/plugin.py:39
 msgid "Application toolbars management."
-msgstr ""
+msgstr "Verwaltung der Anwendungs-Werkzeugleisten."
 
 #: spyder/plugins/toolbar/plugin.py:49
 msgid "Main toolbar"
@@ -5926,7 +5926,7 @@ msgstr "Referenzen auf Funktionen, Module und andere Callables ausschließen."
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:206
 msgid "Show minimum and maximum of arrays"
-msgstr ""
+msgstr "Minimum und Maximum von Arrays anzeigen"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:214 spyder/plugins/variableexplorer/widgets/namespacebrowser.py:183
 msgid "Import data"
@@ -6201,7 +6201,10 @@ msgid "This is the working directory for newly\n"
 "opened IPython consoles, for the Files\n"
 "and Find panes and for new files\n"
 "created in the editor"
-msgstr ""
+msgstr "Dies ist das Arbeitsverzeichnis für neu\n"
+"geöffnete IPython-Konsolen, für die\n"
+"Fensterbereiche „Dateien“ und „Suchen“\n"
+"und für neu im Editor erstellte Dateien"
 
 #: spyder/plugins/workingdirectory/container.py:105 spyder/plugins/workingdirectory/container.py:106 spyder/widgets/browser.py:113
 msgid "Back"
@@ -6217,7 +6220,7 @@ msgstr "Zum übergeordneten Verzeichnis wechseln"
 
 #: spyder/plugins/workingdirectory/plugin.py:63
 msgid "Set the current working directory for various plugins."
-msgstr ""
+msgstr "Das aktuelle Arbeitsverzeichnis für verschiedene Plugins festlegen."
 
 #: spyder/utils/environ.py:83
 msgid "Environment variables"
