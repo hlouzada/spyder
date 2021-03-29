@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-29 13:08\n"
+"PO-Revision-Date: 2021-03-29 13:59\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -6179,7 +6179,8 @@ msgid "This is the working directory for newly\n"
 "opened IPython consoles, for the Files\n"
 "and Find panes and for new files\n"
 "created in the editor"
-msgstr ""
+msgstr "这是新打开的 IPython 控制台的工作目录，\n"
+"用于文件和查找窗格，和在编辑器中创建的新文件"
 
 #: spyder/plugins/workingdirectory/container.py:105 spyder/plugins/workingdirectory/container.py:106 spyder/widgets/browser.py:113
 msgid "Back"
@@ -6195,7 +6196,7 @@ msgstr "切换到上级目录"
 
 #: spyder/plugins/workingdirectory/plugin.py:63
 msgid "Set the current working directory for various plugins."
-msgstr ""
+msgstr "设置当前的插件工作目录。"
 
 #: spyder/utils/environ.py:83
 msgid "Environment variables"
