@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-29 05:10\n"
+"PO-Revision-Date: 2021-03-29 05:29\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,11 @@ msgstr "Панель инструментов главного виджета"
 
 #: spyder/api/widgets/__init__.py:373
 msgid "Main widget corner toolbar"
-msgstr ""
+msgstr "Угловая панель инструментов главного виджета"
 
 #: spyder/api/widgets/__init__.py:380
 msgid "Options menu"
-msgstr ""
+msgstr "Меню настроек"
 
 #: spyder/api/widgets/__init__.py:431 spyder/plugins/base.py:175 spyder/plugins/editor/widgets/editor.py:674 spyder/plugins/ipythonconsole/widgets/client.py:502 spyder/plugins/variableexplorer/widgets/objectexplorer/objectexplorer.py:201
 msgid "Options"
@@ -59,15 +59,15 @@ msgstr "Закрыть эту панель"
 
 #: spyder/app/mainwindow.py:200
 msgid "Compatibility Check"
-msgstr ""
+msgstr "Проверка совместимости"
 
 #: spyder/app/mainwindow.py:219
 msgid "Loading {}..."
-msgstr ""
+msgstr "Загрузка {}..."
 
 #: spyder/app/mainwindow.py:686
 msgid "An error occurred while creating a socket needed by Spyder. Please, try to run as an Administrator from cmd.exe the following command and then restart your computer: <br><br><span style='color: {color}'><b>netsh winsock reset </b></span><br>"
-msgstr ""
+msgstr "Ошибка создания сокета, нужного Spyder. Пожалуйста, попробуйте запустить следующую команду из cmd.exe от имени администратора и перезапустите компьютер: <br><br><span style='color: {color}'><b>netsh winsock reset </b></span><br>"
 
 #: spyder/app/mainwindow.py:789 spyder/app/tour.py:1427
 msgid "Welcome to Spyder!"
@@ -90,7 +90,7 @@ msgstr "Встроенная консоль Spyder\n\n"
 
 #: spyder/app/mainwindow.py:917
 msgid "Loading old third-party plugins..."
-msgstr ""
+msgstr "Загрузка старых сторонних плагинов..."
 
 #: spyder/app/mainwindow.py:974 spyder/plugins/editor/widgets/editor.py:280
 msgid "File switcher..."
@@ -516,7 +516,7 @@ msgstr "Обработка взаимодействия между ядром и
 
 #: spyder/dependencies.py:109
 msgid "Create projects from cookiecutter templates"
-msgstr ""
+msgstr "Создание проектов из шаблонов cookiecutter"
 
 #: spyder/dependencies.py:113
 msgid "Compute text file diff changes during edition"
@@ -728,7 +728,7 @@ msgstr "Внешний вид"
 
 #: spyder/plugins/appearance/plugin.py:43
 msgid "Manage application appearance and themes."
-msgstr ""
+msgstr "Управление внешним видом приложения и темами."
 
 #: spyder/plugins/appearance/widgets.py:91
 msgid "Text"
@@ -946,7 +946,7 @@ msgstr "<b>У Вас есть недостающие зависимости!</b>
 
 #: spyder/plugins/application/plugin.py:67
 msgid "Application"
-msgstr ""
+msgstr "Приложение"
 
 #: spyder/plugins/application/plugin.py:73
 msgid "Provide main application base actions."
@@ -962,7 +962,7 @@ msgstr "Точки останова"
 
 #: spyder/plugins/breakpoints/plugin.py:94
 msgid "Manage code breakpoints in a unified pane."
-msgstr ""
+msgstr "Управление точками останова кода в единой панели."
 
 #: spyder/plugins/breakpoints/plugin.py:123
 msgid "List breakpoints"
@@ -986,15 +986,15 @@ msgstr "Очистить точки останова во всех файлах"
 
 #: spyder/plugins/breakpoints/widgets/main_widget.py:213
 msgid "Clear selected breakpoint"
-msgstr ""
+msgstr "Очистить выбранную точку останова"
 
 #: spyder/plugins/breakpoints/widgets/main_widget.py:218
 msgid "Edit selected breakpoint"
-msgstr ""
+msgstr "Изменить выбранную точку останова"
 
 #: spyder/plugins/completion/confpage.py:27
 msgid "Plugin status"
-msgstr ""
+msgstr "Статус плагина"
 
 #: spyder/plugins/completion/confpage.py:30
 msgid "Enable code completion and linting in the editor"
@@ -5406,7 +5406,7 @@ msgstr "Комбинации клавиш"
 
 #: spyder/plugins/shortcuts/plugin.py:66
 msgid "Manage application, widget and actions shortcuts."
-msgstr ""
+msgstr "Управление приложением, виджетом и ярлыками действий."
 
 #: spyder/plugins/shortcuts/plugin.py:79
 msgid "Shortcuts Summary"
@@ -5526,11 +5526,11 @@ msgstr "Панель состояния"
 
 #: spyder/plugins/statusbar/plugin.py:51
 msgid "Provide Core user interface management"
-msgstr ""
+msgstr "Управляет ядром пользовательского интерфейса"
 
 #: spyder/plugins/statusbar/widgets/status.py:34
 msgid "Global memory usage"
-msgstr ""
+msgstr "Глобавльное использование памяти"
 
 #: spyder/plugins/statusbar/widgets/status.py:48
 msgid "CPU usage"
@@ -5554,11 +5554,11 @@ msgstr "Скрыть панели инструментов"
 
 #: spyder/plugins/toolbar/plugin.py:36
 msgid "Toolbar"
-msgstr ""
+msgstr "Панель инструментов"
 
 #: spyder/plugins/toolbar/plugin.py:39
 msgid "Application toolbars management."
-msgstr ""
+msgstr "Управление панелями инструментов приложения."
 
 #: spyder/plugins/toolbar/plugin.py:49
 msgid "Main toolbar"
@@ -5598,7 +5598,7 @@ msgstr "Менеджер переменных"
 
 #: spyder/plugins/variableexplorer/plugin.py:43
 msgid "Display, explore load and save variables in the current namespace."
-msgstr ""
+msgstr "Отображение, изучение загрузки и сохранения переменных в текущем пространстве имён."
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:568
 msgid "It was not possible to copy values for this array"
@@ -5886,27 +5886,27 @@ msgstr "<b>Невозможно перейти к следующему шагу<
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:162
 msgid "Exclude private variables"
-msgstr ""
+msgstr "Исключить приватные переменные"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:163
 msgid "Exclude variables that start with an underscore"
-msgstr ""
+msgstr "Исключить переменные, начинающиеся с подчеркивания"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:170
 msgid "Exclude all-uppercase variables"
-msgstr ""
+msgstr "Исключить переменные со всеми буквами в верхнем регистре"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:171
 msgid "Exclude variables whose name is uppercase"
-msgstr ""
+msgstr "Исключить переменные с именем в верхнем регистре"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:178
 msgid "Exclude capitalized variables"
-msgstr ""
+msgstr "Исключить переменные с прописной буквы"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:179
 msgid "Exclude variables whose name starts with a capital letter"
-msgstr ""
+msgstr "Исключить переменные, имя которых начинается с заглавной буквы"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:188
 msgid "Exclude references to data types that don't have an specialized viewer or can't be edited."
@@ -5918,7 +5918,7 @@ msgstr ""
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:206
 msgid "Show minimum and maximum of arrays"
-msgstr ""
+msgstr "Показывать минимум и максимум массивов"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:214 spyder/plugins/variableexplorer/widgets/namespacebrowser.py:183
 msgid "Import data"
@@ -6193,7 +6193,10 @@ msgid "This is the working directory for newly\n"
 "opened IPython consoles, for the Files\n"
 "and Find panes and for new files\n"
 "created in the editor"
-msgstr ""
+msgstr "Это рабочий каталог для новых\n"
+"открытых консолей IPython, для файлов\n"
+"и поиска панелей и для новых файлов\n"
+"созданные в редакторе"
 
 #: spyder/plugins/workingdirectory/container.py:105 spyder/plugins/workingdirectory/container.py:106 spyder/widgets/browser.py:113
 msgid "Back"
@@ -6209,7 +6212,7 @@ msgstr "Изменить на родительский каталог"
 
 #: spyder/plugins/workingdirectory/plugin.py:63
 msgid "Set the current working directory for various plugins."
-msgstr ""
+msgstr "Установите текущий рабочий каталог для различных плагинов."
 
 #: spyder/utils/environ.py:83
 msgid "Environment variables"
@@ -6353,19 +6356,19 @@ msgstr "Неверная размерность массива"
 
 #: spyder/widgets/browser.py:122
 msgid "Forward"
-msgstr ""
+msgstr "Вперёд"
 
 #: spyder/widgets/browser.py:131
 msgid "Select all"
-msgstr ""
+msgstr "Выделить всё"
 
 #: spyder/widgets/browser.py:164
 msgid "Inspect"
-msgstr ""
+msgstr "Исследовать"
 
 #: spyder/widgets/browser.py:172
 msgid "Refresh"
-msgstr ""
+msgstr "Обновить"
 
 #: spyder/widgets/browser.py:430
 msgid "Address:"
@@ -6541,7 +6544,7 @@ msgstr "Найти строку"
 
 #: spyder/widgets/findreplace.py:97
 msgid "Replace text"
-msgstr ""
+msgstr "Заменить текст"
 
 #: spyder/widgets/findreplace.py:102
 msgid "Find previous"
