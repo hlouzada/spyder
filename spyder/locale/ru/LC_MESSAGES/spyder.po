@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-29 05:29\n"
+"PO-Revision-Date: 2021-03-29 05:48\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -1006,7 +1006,7 @@ msgstr "Провайдеры"
 
 #: spyder/plugins/completion/confpage.py:43
 msgid "Enable {0} provider"
-msgstr ""
+msgstr "Включить поставщика {0}"
 
 #: spyder/plugins/completion/confpage.py:51
 msgid "Time to wait for all providers to return (ms):"
@@ -1042,7 +1042,7 @@ msgstr ""
 
 #: spyder/plugins/completion/confpage.py:75
 msgid "Completions"
-msgstr ""
+msgstr "Автодополнение"
 
 #: spyder/plugins/completion/plugin.py:246
 msgid "Completion and linting"
@@ -1054,7 +1054,7 @@ msgstr ""
 
 #: spyder/plugins/completion/providers/fallback/provider.py:42
 msgid "Fallback"
-msgstr ""
+msgstr "Запасной вариант"
 
 #: spyder/plugins/completion/providers/kite/client.py:120
 msgid "<code>{error}</code><br><br>Note: If you are using a VPN, please don't route requests to localhost/127.0.0.1 with it"
@@ -1466,7 +1466,7 @@ msgstr "Удалить выбранный сервер"
 
 #: spyder/plugins/completion/providers/languageserver/provider.py:273
 msgid "Language Server Protocol (LSP)"
-msgstr ""
+msgstr "Протокол сервера языка (LSP)"
 
 #: spyder/plugins/completion/providers/languageserver/provider.py:391
 msgid "It appears there is no {language} language server listening at address:<br><br><tt>{host}:{port}</tt><br><br>Therefore, completion and linting for {language} will not work during this session."
@@ -1700,7 +1700,7 @@ msgstr ""
 
 #: spyder/plugins/completion/providers/snippets/provider.py:53
 msgid "Text snippets"
-msgstr ""
+msgstr "Текстовые сниппеты"
 
 #: spyder/plugins/completion/providers/snippets/widgets/snippetsconfig.py:219
 msgid "Valid snippet"
@@ -3065,7 +3065,7 @@ msgstr "Ассоциации файлов"
 
 #: spyder/plugins/explorer/plugin.py:160
 msgid "Explore files in the computer with a tree view."
-msgstr ""
+msgstr "Просмотр файлов на компьютере в виде дерева."
 
 #: spyder/plugins/explorer/widgets/explorer.py:290
 msgid "File..."
@@ -3393,7 +3393,7 @@ msgstr ""
 
 #: spyder/plugins/findinfiles/plugin.py:52
 msgid "Search for strings of text in files."
-msgstr ""
+msgstr "Поиск строк текста в файлах."
 
 #: spyder/plugins/findinfiles/plugin.py:76
 msgid "Find in files"
@@ -3497,7 +3497,7 @@ msgstr "Регулярное выражение"
 
 #: spyder/plugins/findinfiles/widgets.py:948 spyder/plugins/findinfiles/widgets.py:949
 msgid "Case sensitive"
-msgstr ""
+msgstr "С учетом регистра"
 
 #: spyder/plugins/findinfiles/widgets.py:957 spyder/plugins/findinfiles/widgets.py:1038
 msgid "Search"
@@ -3509,7 +3509,7 @@ msgstr "Найти в &файлах"
 
 #: spyder/plugins/findinfiles/widgets.py:975 spyder/plugins/findinfiles/widgets.py:976
 msgid "Exclude case sensitive"
-msgstr ""
+msgstr "Исключить с учетом регистра"
 
 #: spyder/plugins/findinfiles/widgets.py:984 spyder/plugins/findinfiles/widgets.py:985 spyder/plugins/findinfiles/widgets.py:1073
 msgid "Show advanced options"
@@ -3557,7 +3557,7 @@ msgstr ""
 
 #: spyder/plugins/help/plugin.py:127
 msgid "Spyder tutorial"
-msgstr ""
+msgstr "Руководство Spyder"
 
 #: spyder/plugins/help/utils/sphinxify.py:247 spyder/plugins/help/utils/sphinxify.py:257
 msgid "It was not possible to generate rich text help for this object.</br>Please see it in plain text."
@@ -3601,7 +3601,7 @@ msgstr "Простой текст"
 
 #: spyder/plugins/help/widgets.py:392
 msgid "Lock/Unlock"
-msgstr ""
+msgstr "Блокировать/Разблокировать"
 
 #: spyder/plugins/help/widgets.py:400 spyder/plugins/onlinehelp/widgets.py:195 spyder/plugins/onlinehelp/widgets.py:196 spyder/widgets/browser.py:368
 msgid "Home"
@@ -4407,7 +4407,7 @@ msgstr "Параметры компоновки"
 
 #: spyder/plugins/layout/container.py:143
 msgid "Reset to Spyder default"
-msgstr ""
+msgstr "Сбросить к настройкам по умолчанию"
 
 #: spyder/plugins/layout/container.py:151
 msgid "Use next layout"
@@ -4433,35 +4433,35 @@ msgstr "Компоновка окон будет восстановлена по
 
 #: spyder/plugins/layout/layouts.py:81
 msgid "Spyder default"
-msgstr ""
+msgstr "Настройки по умолчанию"
 
 #: spyder/plugins/layout/layouts.py:107
 msgid "Horizontal split"
-msgstr ""
+msgstr "Разделить по горизонтали"
 
 #: spyder/plugins/layout/layouts.py:133
 msgid "Vertical split"
-msgstr ""
+msgstr "Разделить по вертикали"
 
 #: spyder/plugins/layout/layouts.py:170
 msgid "RStudio"
-msgstr ""
+msgstr "RStudio"
 
 #: spyder/plugins/layout/layouts.py:223
 msgid "Matlab"
-msgstr ""
+msgstr "Matlab"
 
 #: spyder/plugins/layout/layouts.py:250
 msgid "testing layout"
-msgstr ""
+msgstr "тестирование размещения"
 
 #: spyder/plugins/layout/plugin.py:54
 msgid "Layout"
-msgstr ""
+msgstr "Размещение"
 
 #: spyder/plugins/layout/plugin.py:57
 msgid "Layout manager"
-msgstr ""
+msgstr "Менеджер размещения"
 
 #: spyder/plugins/layout/plugin.py:314
 msgid "Error opening the custom layout.  Please close Spyder and try again.  If the issue persists, then you must use 'Reset to Spyder default' from the layout menu."
@@ -4485,7 +4485,7 @@ msgstr "Вернуть панель к первоначальному разме
 
 #: spyder/plugins/layout/plugin.py:765
 msgid "Unlock panes and toolbars"
-msgstr ""
+msgstr "Разблокировать панели"
 
 #: spyder/plugins/layout/plugin.py:768
 msgid "Lock panes and toolbars"
@@ -4584,11 +4584,11 @@ msgstr "Следующие модули не установлены на Ваш�
 
 #: spyder/plugins/maininterpreter/confpage.py:252
 msgid "Please note that these changes will be applied only to new IPython consoles"
-msgstr ""
+msgstr "Обратите внимание, что эти изменения будут применяться только к новым консолям IPython"
 
 #: spyder/plugins/maininterpreter/plugin.py:47
 msgid "Main Python interpreter to open consoles."
-msgstr ""
+msgstr "Основной интерпретатор Python для открытия консолей."
 
 #: spyder/plugins/maininterpreter/widgets/status.py:160
 msgid "Change default environment in Preferences..."
@@ -4596,7 +4596,7 @@ msgstr ""
 
 #: spyder/plugins/mainmenu/plugin.py:38
 msgid "Main menus"
-msgstr ""
+msgstr "Главные меню"
 
 #: spyder/plugins/mainmenu/plugin.py:44
 msgid "Provide main application menu management."
@@ -4832,7 +4832,7 @@ msgstr "Сохранить все графики..."
 
 #: spyder/plugins/plots/widgets/main_widget.py:235
 msgid "Copy image"
-msgstr ""
+msgstr "Копировать изображение"
 
 #: spyder/plugins/plots/widgets/main_widget.py:236
 msgid "Copy plot to clipboard as image"
@@ -4904,7 +4904,7 @@ msgstr "Параметры"
 
 #: spyder/plugins/preferences/plugin.py:237
 msgid "This plugin provides access to Spyder preferences page"
-msgstr ""
+msgstr "Этот плагин предоставляет доступ к странице настроек Spyder"
 
 #: spyder/plugins/preferences/widgets/container.py:109
 msgid "Reset Spyder to factory defaults"
@@ -4922,7 +4922,7 @@ msgstr "Результаты Профайлера (вывод profile/cProfile p
 
 #: spyder/plugins/profiler/plugin.py:67
 msgid "Profile your scripts and find bottlenecks."
-msgstr ""
+msgstr "Профилируйте ваши скрипты и находите узкие места."
 
 #: spyder/plugins/profiler/plugin.py:85 spyder/plugins/profiler/plugin.py:86 spyder/plugins/profiler/widgets/main_widget.py:197 spyder/plugins/profiler/widgets/main_widget.py:198
 msgid "Run profiler"
@@ -4942,7 +4942,7 @@ msgstr "Показать вывод программы"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:219
 msgid "Collapse"
-msgstr ""
+msgstr "Свернуть"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:220
 msgid "Collapse one level up"
@@ -4950,7 +4950,7 @@ msgstr "Свернуть на один уровень вверх"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:226
 msgid "Expand"
-msgstr ""
+msgstr "Развернуть"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:227
 msgid "Expand one level down"
@@ -4986,7 +4986,7 @@ msgstr "модули профайлера Python"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:299
 msgid "Start"
-msgstr ""
+msgstr "Запустить"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:366
 msgid "Save profiler result"
@@ -5098,7 +5098,7 @@ msgstr "Максимальное количество недавних прое�
 
 #: spyder/plugins/projects/plugin.py:368
 msgid "<b>{}</b> is not a registered Spyder project type!"
-msgstr ""
+msgstr "<b>{}</b> не является зарегистрированным типом проекта Spyder!"
 
 #: spyder/plugins/projects/plugin.py:379
 msgid "Open project"
@@ -5270,11 +5270,11 @@ msgstr "предыдущий запуск:"
 
 #: spyder/plugins/pylint/main_widget.py:760
 msgid "Code analysis output"
-msgstr ""
+msgstr "Вывод анализа кода"
 
 #: spyder/plugins/pylint/plugin.py:62
 msgid "Run Code Analysis."
-msgstr ""
+msgstr "Запустить анализ кода."
 
 #: spyder/plugins/run/confpage.py:41
 msgid "The following are the default options for running files.These options may be overriden using the <b>Configuration per file</b> entry of the <b>Run</b> menu."
@@ -5302,7 +5302,7 @@ msgstr "Диалог Настроек Запуска"
 
 #: spyder/plugins/run/plugin.py:43
 msgid "Manage run configuration."
-msgstr ""
+msgstr "Управление конфигурацией запуска."
 
 #: spyder/plugins/run/widgets.py:31
 msgid "Execute in current console"
