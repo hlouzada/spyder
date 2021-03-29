@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-26 18:21\n"
+"PO-Revision-Date: 2021-03-29 12:53\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: spyder/api/widgets/__init__.py:380
 msgid "Options menu"
-msgstr ""
+msgstr "选项菜单"
 
 #: spyder/api/widgets/__init__.py:431 spyder/plugins/base.py:175 spyder/plugins/editor/widgets/editor.py:674 spyder/plugins/ipythonconsole/widgets/client.py:502 spyder/plugins/variableexplorer/widgets/objectexplorer/objectexplorer.py:201
 msgid "Options"
@@ -59,15 +59,15 @@ msgstr "关闭窗格"
 
 #: spyder/app/mainwindow.py:200
 msgid "Compatibility Check"
-msgstr ""
+msgstr "兼容性检查"
 
 #: spyder/app/mainwindow.py:219
 msgid "Loading {}..."
-msgstr ""
+msgstr "正在加载 {}..."
 
 #: spyder/app/mainwindow.py:686
 msgid "An error occurred while creating a socket needed by Spyder. Please, try to run as an Administrator from cmd.exe the following command and then restart your computer: <br><br><span style='color: {color}'><b>netsh winsock reset </b></span><br>"
-msgstr ""
+msgstr "创建 Spyder 所需的套接字时出现错误。请尝试使用管理员权限启动 cmd.exe，执行下述命令后重启电脑：<br><br><span style='color: {color}'><b>netsh winsock reset</b></span><br>"
 
 #: spyder/app/mainwindow.py:789 spyder/app/tour.py:1427
 msgid "Welcome to Spyder!"
@@ -88,7 +88,7 @@ msgstr "Spyder 内部控制台\n\n"
 
 #: spyder/app/mainwindow.py:917
 msgid "Loading old third-party plugins..."
-msgstr ""
+msgstr "正在加载第三方插件..."
 
 #: spyder/app/mainwindow.py:974 spyder/plugins/editor/widgets/editor.py:280
 msgid "File switcher..."
@@ -514,7 +514,7 @@ msgstr "负责处理内核与前端之间的通信"
 
 #: spyder/dependencies.py:109
 msgid "Create projects from cookiecutter templates"
-msgstr ""
+msgstr "从 cookiecutter 模板创建项目"
 
 #: spyder/dependencies.py:113
 msgid "Compute text file diff changes during edition"
@@ -726,7 +726,7 @@ msgstr "外观"
 
 #: spyder/plugins/appearance/plugin.py:43
 msgid "Manage application appearance and themes."
-msgstr ""
+msgstr "管理应用程序外观和主题。"
 
 #: spyder/plugins/appearance/widgets.py:91
 msgid "Text"
@@ -944,11 +944,11 @@ msgstr "<b>还有未满足的依赖项！</b><br><br><tt>%s</tt><br><b>请安装
 
 #: spyder/plugins/application/plugin.py:67
 msgid "Application"
-msgstr ""
+msgstr "应用程序"
 
 #: spyder/plugins/application/plugin.py:73
 msgid "Provide main application base actions."
-msgstr ""
+msgstr "提供主应用程序的基础操作。"
 
 #: spyder/plugins/application/plugin.py:92
 msgid "Report issue..."
@@ -960,7 +960,7 @@ msgstr "断点"
 
 #: spyder/plugins/breakpoints/plugin.py:94
 msgid "Manage code breakpoints in a unified pane."
-msgstr ""
+msgstr "在一个统一的窗格中管理代码断点。"
 
 #: spyder/plugins/breakpoints/plugin.py:123
 msgid "List breakpoints"
@@ -984,19 +984,19 @@ msgstr "清除所有文件中的断点"
 
 #: spyder/plugins/breakpoints/widgets/main_widget.py:213
 msgid "Clear selected breakpoint"
-msgstr ""
+msgstr "清除选中的断点"
 
 #: spyder/plugins/breakpoints/widgets/main_widget.py:218
 msgid "Edit selected breakpoint"
-msgstr ""
+msgstr "编辑选中的断点"
 
 #: spyder/plugins/completion/confpage.py:27
 msgid "Plugin status"
-msgstr ""
+msgstr "插件状态"
 
 #: spyder/plugins/completion/confpage.py:30
 msgid "Enable code completion and linting in the editor"
-msgstr ""
+msgstr "在编辑器中启用代码补全和语法检查"
 
 #: spyder/plugins/completion/confpage.py:41
 msgid "Providers"
@@ -1004,7 +1004,7 @@ msgstr "提供者"
 
 #: spyder/plugins/completion/confpage.py:43
 msgid "Enable {0} provider"
-msgstr ""
+msgstr "启用 {0} provider"
 
 #: spyder/plugins/completion/confpage.py:51
 msgid "Time to wait for all providers to return (ms):"
@@ -1012,7 +1012,7 @@ msgstr "等待所有提供者返回结果的时长（毫秒）："
 
 #: spyder/plugins/completion/confpage.py:53
 msgid "Beyond this timeout the first available provider will be returned"
-msgstr ""
+msgstr "到达这个时限之前，第一个可用的提供者将会返回结果"
 
 #: spyder/plugins/completion/confpage.py:56
 msgid "Show completion details"
@@ -1040,7 +1040,7 @@ msgstr "若 Kite 能提供缺失的补全选项（但是暂时不可用），请
 
 #: spyder/plugins/completion/confpage.py:75
 msgid "Completions"
-msgstr ""
+msgstr "补全"
 
 #: spyder/plugins/completion/plugin.py:246
 msgid "Completion and linting"
@@ -1048,11 +1048,11 @@ msgstr "代码补全及语法检查"
 
 #: spyder/plugins/completion/plugin.py:249
 msgid "This plugin is in charge of handling and dispatching, as well as of receiving the responses of completion and linting requests sent to multiple providers."
-msgstr ""
+msgstr "此插件负责处理、分发和接收多个代码补全和语法检查提供者的响应。"
 
 #: spyder/plugins/completion/providers/fallback/provider.py:42
 msgid "Fallback"
-msgstr ""
+msgstr "备用"
 
 #: spyder/plugins/completion/providers/kite/client.py:120
 msgid "<code>{error}</code><br><br>Note: If you are using a VPN, please don't route requests to localhost/127.0.0.1 with it"
