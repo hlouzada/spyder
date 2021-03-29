@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-29 12:53\n"
+"PO-Revision-Date: 2021-03-29 13:08\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1275,11 +1275,11 @@ msgstr "除了指定的惯例之外，也忽略以下错误："
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/docstring.py:143
 msgid "Directory patterns listed for matching should be valid regular expressions"
-msgstr ""
+msgstr "列出的用于匹配的目录模式应该是有效的正则表达式"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/docstring.py:146
 msgid "File patterns listed for matching should be valid regular expressions"
-msgstr ""
+msgstr "列出的用于匹配的文件模式应该是有效的正则表达式"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/formatting.py:27
 msgid "Code style and formatting"
@@ -1367,11 +1367,11 @@ msgstr "代码格式化"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/formatting.py:162
 msgid "Directory patterns listed for exclusion should be valid regular expressions"
-msgstr ""
+msgstr "列出的用于排除的目录模式应该是有效的正则表达式"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/formatting.py:165
 msgid "File patterns listed for exclusion should be valid regular expressions"
-msgstr ""
+msgstr "列出的用于排除的文件模式应该是有效的正则表达式"
 
 #: spyder/plugins/completion/providers/languageserver/conftabs/introspection.py:27
 msgid "Introspection"
@@ -1462,7 +1462,7 @@ msgstr "删除选定的服务器"
 
 #: spyder/plugins/completion/providers/languageserver/provider.py:273
 msgid "Language Server Protocol (LSP)"
-msgstr ""
+msgstr "语言服务器协议 (LSP)"
 
 #: spyder/plugins/completion/providers/languageserver/provider.py:391
 msgid "It appears there is no {language} language server listening at address:<br><br><tt>{host}:{port}</tt><br><br>Therefore, completion and linting for {language} will not work during this session."
@@ -1696,7 +1696,7 @@ msgstr "Spyder 成功加载了 {0}/{1} 个代码片段。请检查以下代码�
 
 #: spyder/plugins/completion/providers/snippets/provider.py:53
 msgid "Text snippets"
-msgstr ""
+msgstr "文本片段"
 
 #: spyder/plugins/completion/providers/snippets/widgets/snippetsconfig.py:219
 msgid "Valid snippet"
@@ -3056,7 +3056,7 @@ msgstr "文件关联"
 
 #: spyder/plugins/explorer/plugin.py:160
 msgid "Explore files in the computer with a tree view."
-msgstr ""
+msgstr "用树形视图查看计算机中的文件。"
 
 #: spyder/plugins/explorer/widgets/explorer.py:290
 msgid "File..."
@@ -3384,7 +3384,7 @@ msgstr "输入新的文件类型。可以输入多个，用逗号隔开。<br>�
 
 #: spyder/plugins/findinfiles/plugin.py:52
 msgid "Search for strings of text in files."
-msgstr ""
+msgstr "搜索文件中的文本字符串。"
 
 #: spyder/plugins/findinfiles/plugin.py:76
 msgid "Find in files"
@@ -3488,7 +3488,7 @@ msgstr "正则表达式"
 
 #: spyder/plugins/findinfiles/widgets.py:948 spyder/plugins/findinfiles/widgets.py:949
 msgid "Case sensitive"
-msgstr ""
+msgstr "大小写敏感"
 
 #: spyder/plugins/findinfiles/widgets.py:957 spyder/plugins/findinfiles/widgets.py:1038
 msgid "Search"
@@ -3544,11 +3544,11 @@ msgstr "Sphinx %s当前已安装。"
 
 #: spyder/plugins/help/plugin.py:79
 msgid "Get rich text documentation from the editor and the console"
-msgstr ""
+msgstr "从编辑器和控制台获取富文本文档"
 
 #: spyder/plugins/help/plugin.py:127
 msgid "Spyder tutorial"
-msgstr ""
+msgstr "Spyder教程"
 
 #: spyder/plugins/help/utils/sphinxify.py:247 spyder/plugins/help/utils/sphinxify.py:257
 msgid "It was not possible to generate rich text help for this object.</br>Please see it in plain text."
@@ -3592,7 +3592,7 @@ msgstr "纯文本"
 
 #: spyder/plugins/help/widgets.py:392
 msgid "Lock/Unlock"
-msgstr ""
+msgstr "锁定/解锁"
 
 #: spyder/plugins/help/widgets.py:400 spyder/plugins/onlinehelp/widgets.py:195 spyder/plugins/onlinehelp/widgets.py:196 spyder/widgets/browser.py:368
 msgid "Home"
@@ -3660,7 +3660,7 @@ msgstr "历史"
 
 #: spyder/plugins/history/plugin.py:54
 msgid "Provide command history for IPython Consoles"
-msgstr ""
+msgstr "为 IPython 控制台提供命令历史"
 
 #: spyder/plugins/ipythonconsole/confpage.py:27 spyder/plugins/ipythonconsole/plugin.py:517
 msgid "IPython console"
@@ -4380,7 +4380,7 @@ msgstr "全屏模式"
 
 #: spyder/plugins/layout/container.py:106
 msgid "For fullscreen mode use the macOS built-in feature"
-msgstr ""
+msgstr "全屏模式使用 macOS 内置特性"
 
 #: spyder/plugins/layout/container.py:123
 msgid "Spyder Default Layout"
@@ -4396,7 +4396,7 @@ msgstr "布局偏好"
 
 #: spyder/plugins/layout/container.py:143
 msgid "Reset to Spyder default"
-msgstr ""
+msgstr "重置为Spyder默认值"
 
 #: spyder/plugins/layout/container.py:151
 msgid "Use next layout"
@@ -4412,7 +4412,7 @@ msgstr "窗口布局"
 
 #: spyder/plugins/layout/container.py:283
 msgid "Layout <b>{0}</b> will be overwritten.Do you want to continue?"
-msgstr ""
+msgstr "<b>{0}</b> 将被覆盖。 您想要继续吗？"
 
 #: spyder/plugins/layout/container.py:334
 msgid "Window layout will be reset to default settings: this affects window position, size and dockwidgets.\n"
@@ -4422,15 +4422,15 @@ msgstr "窗口布局将被重置为默认设置：这会影响窗口的位置、
 
 #: spyder/plugins/layout/layouts.py:81
 msgid "Spyder default"
-msgstr ""
+msgstr "Spyder 默认"
 
 #: spyder/plugins/layout/layouts.py:107
 msgid "Horizontal split"
-msgstr ""
+msgstr "水平拆分"
 
 #: spyder/plugins/layout/layouts.py:133
 msgid "Vertical split"
-msgstr ""
+msgstr "垂直拆分"
 
 #: spyder/plugins/layout/layouts.py:170
 msgid "RStudio"
@@ -4442,15 +4442,15 @@ msgstr ""
 
 #: spyder/plugins/layout/layouts.py:250
 msgid "testing layout"
-msgstr ""
+msgstr "测试布局"
 
 #: spyder/plugins/layout/plugin.py:54
 msgid "Layout"
-msgstr ""
+msgstr "布局"
 
 #: spyder/plugins/layout/plugin.py:57
 msgid "Layout manager"
-msgstr ""
+msgstr "布局管理器"
 
 #: spyder/plugins/layout/plugin.py:314
 msgid "Error opening the custom layout.  Please close Spyder and try again.  If the issue persists, then you must use 'Reset to Spyder default' from the layout menu."
@@ -4474,7 +4474,7 @@ msgstr "将窗格恢复到初始大小"
 
 #: spyder/plugins/layout/plugin.py:765
 msgid "Unlock panes and toolbars"
-msgstr ""
+msgstr "解锁窗格和工具栏"
 
 #: spyder/plugins/layout/plugin.py:768
 msgid "Lock panes and toolbars"
@@ -4572,11 +4572,11 @@ msgstr "下面的模块没有在您的计算机上安装：\n"
 
 #: spyder/plugins/maininterpreter/confpage.py:252
 msgid "Please note that these changes will be applied only to new IPython consoles"
-msgstr ""
+msgstr "请注意，这些变化将只适用于新的 IPython 控制台"
 
 #: spyder/plugins/maininterpreter/plugin.py:47
 msgid "Main Python interpreter to open consoles."
-msgstr ""
+msgstr "打开控制台的主Python解释器。"
 
 #: spyder/plugins/maininterpreter/widgets/status.py:160
 msgid "Change default environment in Preferences..."
@@ -4584,11 +4584,11 @@ msgstr "在首选面中更改默认的环境..."
 
 #: spyder/plugins/mainmenu/plugin.py:38
 msgid "Main menus"
-msgstr ""
+msgstr "主菜单"
 
 #: spyder/plugins/mainmenu/plugin.py:44
 msgid "Provide main application menu management."
-msgstr ""
+msgstr "提供主应用程序的菜单管理。"
 
 #: spyder/plugins/mainmenu/plugin.py:60
 msgid "C&onsoles"
@@ -4604,7 +4604,7 @@ msgstr "在线帮助"
 
 #: spyder/plugins/onlinehelp/plugin.py:52
 msgid "Browse and search the currently installed modules interactively."
-msgstr ""
+msgstr "浏览和搜索当前安装的模块。"
 
 #: spyder/plugins/onlinehelp/pydoc_patch.py:802
 msgid "There was an error while retrieving documentation for the object you requested: Object could not be found"
@@ -4780,7 +4780,7 @@ msgstr "显示/隐藏大纲管理器"
 
 #: spyder/plugins/plots/plugin.py:42
 msgid "Display, explore and save console generated plots."
-msgstr ""
+msgstr "查看和保存控制台生成的绘图。"
 
 #: spyder/plugins/plots/widgets/figurebrowser.py:481
 msgid "The image is broken, please try to generate it again"
@@ -4820,7 +4820,7 @@ msgstr "保存所有图形..."
 
 #: spyder/plugins/plots/widgets/main_widget.py:235
 msgid "Copy image"
-msgstr ""
+msgstr "复制图像"
 
 #: spyder/plugins/plots/widgets/main_widget.py:236
 msgid "Copy plot to clipboard as image"
@@ -4892,7 +4892,7 @@ msgstr "偏好"
 
 #: spyder/plugins/preferences/plugin.py:237
 msgid "This plugin provides access to Spyder preferences page"
-msgstr ""
+msgstr "此插件提供了 Spyder 首选项页面"
 
 #: spyder/plugins/preferences/widgets/container.py:109
 msgid "Reset Spyder to factory defaults"
@@ -4909,7 +4909,7 @@ msgstr "Profiler插件生成的结果（profiler/cprofiler的输出）存储于�
 
 #: spyder/plugins/profiler/plugin.py:67
 msgid "Profile your scripts and find bottlenecks."
-msgstr ""
+msgstr "分析脚本并找出瓶颈。"
 
 #: spyder/plugins/profiler/plugin.py:85 spyder/plugins/profiler/plugin.py:86 spyder/plugins/profiler/widgets/main_widget.py:197 spyder/plugins/profiler/widgets/main_widget.py:198
 msgid "Run profiler"
@@ -4929,7 +4929,7 @@ msgstr "显示程序输出"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:219
 msgid "Collapse"
-msgstr ""
+msgstr "收起"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:220
 msgid "Collapse one level up"
@@ -4937,7 +4937,7 @@ msgstr "折叠一级"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:226
 msgid "Expand"
-msgstr ""
+msgstr "展开"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:227
 msgid "Expand one level down"
@@ -4973,7 +4973,7 @@ msgstr "Python 性能分析模块"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:299
 msgid "Start"
-msgstr ""
+msgstr "启动"
 
 #: spyder/plugins/profiler/widgets/main_widget.py:366
 msgid "Save profiler result"
@@ -5085,7 +5085,7 @@ msgstr "最近项目的最大数量..."
 
 #: spyder/plugins/projects/plugin.py:368
 msgid "<b>{}</b> is not a registered Spyder project type!"
-msgstr ""
+msgstr "<b>{}</b> 不是注册的 Spyder 项目类型！"
 
 #: spyder/plugins/projects/plugin.py:379
 msgid "Open project"
@@ -5257,11 +5257,11 @@ msgstr "上次运行："
 
 #: spyder/plugins/pylint/main_widget.py:760
 msgid "Code analysis output"
-msgstr ""
+msgstr "代码分析输出"
 
 #: spyder/plugins/pylint/plugin.py:62
 msgid "Run Code Analysis."
-msgstr ""
+msgstr "运行代码分析。"
 
 #: spyder/plugins/run/confpage.py:41
 msgid "The following are the default options for running files.These options may be overriden using the <b>Configuration per file</b> entry of the <b>Run</b> menu."
@@ -5289,7 +5289,7 @@ msgstr "运行设置对话框"
 
 #: spyder/plugins/run/plugin.py:43
 msgid "Manage run configuration."
-msgstr ""
+msgstr "管理运行配置。"
 
 #: spyder/plugins/run/widgets.py:31
 msgid "Execute in current console"
@@ -5393,7 +5393,7 @@ msgstr "键盘快捷键"
 
 #: spyder/plugins/shortcuts/plugin.py:66
 msgid "Manage application, widget and actions shortcuts."
-msgstr ""
+msgstr "管理应用、小部件和操作快捷方式。"
 
 #: spyder/plugins/shortcuts/plugin.py:79
 msgid "Shortcuts Summary"
@@ -5513,11 +5513,11 @@ msgstr "状态栏"
 
 #: spyder/plugins/statusbar/plugin.py:51
 msgid "Provide Core user interface management"
-msgstr ""
+msgstr "提供核心用户界面管理。"
 
 #: spyder/plugins/statusbar/widgets/status.py:34
 msgid "Global memory usage"
-msgstr ""
+msgstr "全局内存使用"
 
 #: spyder/plugins/statusbar/widgets/status.py:48
 msgid "CPU usage"
@@ -5541,11 +5541,11 @@ msgstr "隐藏工具栏"
 
 #: spyder/plugins/toolbar/plugin.py:36
 msgid "Toolbar"
-msgstr ""
+msgstr "工具栏"
 
 #: spyder/plugins/toolbar/plugin.py:39
 msgid "Application toolbars management."
-msgstr ""
+msgstr "应用程序工具栏管理。"
 
 #: spyder/plugins/toolbar/plugin.py:49
 msgid "Main toolbar"
@@ -5585,7 +5585,7 @@ msgstr "变量管理器"
 
 #: spyder/plugins/variableexplorer/plugin.py:43
 msgid "Display, explore load and save variables in the current namespace."
-msgstr ""
+msgstr "查看、加载和保存当前命名空间中的变量。"
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:568
 msgid "It was not possible to copy values for this array"
@@ -5872,27 +5872,27 @@ msgstr "<b>无法继续下一步</b><br><br>请检查您填写的条目是否正
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:162
 msgid "Exclude private variables"
-msgstr ""
+msgstr "排除私有变量"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:163
 msgid "Exclude variables that start with an underscore"
-msgstr ""
+msgstr "排除以下划线开头的变量"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:170
 msgid "Exclude all-uppercase variables"
-msgstr ""
+msgstr "排除全大写字母变量"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:171
 msgid "Exclude variables whose name is uppercase"
-msgstr ""
+msgstr "排除全大写字母变量"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:178
 msgid "Exclude capitalized variables"
-msgstr ""
+msgstr "排除首字母大写的变量"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:179
 msgid "Exclude variables whose name starts with a capital letter"
-msgstr ""
+msgstr "排除首字母大写的变量"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:188
 msgid "Exclude references to data types that don't have an specialized viewer or can't be edited."
@@ -5904,7 +5904,7 @@ msgstr "排除向函数、模块及其他可调用对象的引用。"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:206
 msgid "Show minimum and maximum of arrays"
-msgstr ""
+msgstr "显示数组最小值和最大值"
 
 #: spyder/plugins/variableexplorer/widgets/main_widget.py:214 spyder/plugins/variableexplorer/widgets/namespacebrowser.py:183
 msgid "Import data"
@@ -6339,19 +6339,19 @@ msgstr "数组维度无效"
 
 #: spyder/widgets/browser.py:122
 msgid "Forward"
-msgstr ""
+msgstr "下一步"
 
 #: spyder/widgets/browser.py:131
 msgid "Select all"
-msgstr ""
+msgstr "全选"
 
 #: spyder/widgets/browser.py:164
 msgid "Inspect"
-msgstr ""
+msgstr "检查"
 
 #: spyder/widgets/browser.py:172
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
 #: spyder/widgets/browser.py:430
 msgid "Address:"
@@ -6527,7 +6527,7 @@ msgstr "查找字符串"
 
 #: spyder/widgets/findreplace.py:97
 msgid "Replace text"
-msgstr ""
+msgstr "替换文本"
 
 #: spyder/widgets/findreplace.py:102
 msgid "Find previous"
