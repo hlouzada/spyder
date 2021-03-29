@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2021-03-26 13:14-0500\n"
-"PO-Revision-Date: 2021-03-26 18:20\n"
+"PO-Revision-Date: 2021-03-29 05:10\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: spyder/api/widgets/__init__.py:368
 msgid "Main widget toolbar"
-msgstr ""
+msgstr "Панель инструментов главного виджета"
 
 #: spyder/api/widgets/__init__.py:373
 msgid "Main widget corner toolbar"
