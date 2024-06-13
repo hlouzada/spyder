@@ -688,8 +688,6 @@ class SpyderRemoteClient:
             self.server_url, api_token=self.api_token
         ) as jupyter:
             response = await jupyter.create_kernel(kernel_spec=kernel_spec)
-            if 'connection_info' in response:
-                response['connection_info']['hostname'] = self.options["host"]
         self._logger.info(f"Kernel started with ID {response['id']}")
         return response
 
@@ -709,8 +707,6 @@ class SpyderRemoteClient:
             self.server_url, api_token=self.api_token
         ) as jupyter:
             response = await jupyter.get_kernel(kernel_id=kernel_id)
-            if 'connection_info' in response:
-                response['connection_info']['hostname'] = self.options["host"]
 
         self._logger.info(f"Kernel info retrieved for ID {kernel_id}")
         return response
