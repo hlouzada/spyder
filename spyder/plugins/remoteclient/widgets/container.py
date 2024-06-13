@@ -8,9 +8,11 @@
 """Remote client container."""
 
 import json
+import socket
 
 from qtpy.QtCore import Signal
 
+from spyder.api.asyncdispatcher import AsyncDispatcher
 from spyder.api.translations import _
 from spyder.api.widgets.main_container import PluginMainContainer
 from spyder.plugins.ipythonconsole.utils.kernel_handler import KernelHandler
@@ -122,6 +124,8 @@ class RemoteClientContainer(PluginMainContainer):
         Id of the kernel which will be shutdown in the server.
     """
 
+    sig_connect_to_kernel = Signal(object, dict)
+
     # ---- PluginMainContainer API
     # -------------------------------------------------------------------------
     def setup(self):
@@ -145,8 +149,11 @@ class RemoteClientContainer(PluginMainContainer):
         self._sig_kernel_restarted[object, bool].connect(
             self._on_kernel_restarted
         )
-        self._sig_kernel_restarted[object, dict].connect(
-            self._on_kernel_restarted_after_died
+        # self._sig_kernel_restarted[object, dict].connect(
+        #     self._on_kernel_restarted_after_died
+        # )
+        self.sig_connect_to_kernel[object, dict].connect(
+            self._connect_to_kernel
         )
 
         # Worker manager to open ssh tunnels in threads
@@ -222,36 +229,12 @@ class RemoteClientContainer(PluginMainContainer):
         ipyclient.kernel_id = kernel_info["id"]
         self._connect_ipyclient_signals(ipyclient)
 
-        # Set hostname in the format expected by KernelHandler
-        address = self.get_conf(f"{config_id}/{auth_method}/address")
-        username = self.get_conf(f"{config_id}/{auth_method}/username")
-        port = self.get_conf(f"{config_id}/{auth_method}/port")
-        hostname = f"{username}@{address}:{port}"
+        tunnel_future = self._tunnel_remote_kernel(ipyclient, kernel_info['connection_info'])
 
-        # Get password or keyfile/passphrase
-        if auth_method == AuthenticationMethod.Password:
-            password = self.get_conf(f"{config_id}/password", secure=True)
-            sshkey = None
-        elif auth_method == AuthenticationMethod.KeyFile:
-            sshkey = self.get_conf(f"{config_id}/{auth_method}/keyfile")
-            passpharse = self.get_conf(f"{config_id}/passpharse", secure=True)
-            if passpharse:
-                password = passpharse
-            else:
-                password = None
-        else:
-            # TODO: Handle the ConfigFile method here
-            pass
-
-        # Generate local connection file from kernel info
-        connection_file = KernelHandler.new_connection_file()
-        with open(connection_file, "w") as f:
-            json.dump(kernel_info["connection_info"], f)
-
-        # Open tunnel to the kernel. Connecting the ipyclient to the kernel
-        # will be finished after that takes place.
-        self._open_tunnel_to_kernel(
-            ipyclient, connection_file, hostname, sshkey, password
+        tunnel_future.add_done_callback(
+            lambda future: self.sig_connect_to_kernel[object, dict].emit(
+                ipyclient, future.result()
+            )
         )
 
     # ---- Private API
@@ -308,69 +291,77 @@ class RemoteClientContainer(PluginMainContainer):
             lambda: self._get_kernel_info(ipyclient)
         )
 
-    def _open_tunnel_to_kernel(
+    @AsyncDispatcher.dispatch(loop='remoteclient')
+    async def _tunnel_remote_kernel(
         self,
         ipyclient,
-        connection_file,
-        hostname,
-        sshkey,
-        password,
-        restart=False,
-        clear=True,
+        remote_connection_info,
     ):
         """
         Open an SSH tunnel to a remote kernel.
 
         Notes
         -----
-        * We do this in a worker to avoid blocking the UI.
         """
-        with open(connection_file, "r") as f:
-            connection_info = json.load(f)
-
-        worker = self._worker_manager.create_python_worker(
-            KernelHandler.tunnel_to_kernel,
-            connection_info,
-            hostname,
-            sshkey,
-            password,
+        ports_to_forward = (
+            "shell_port",
+            "iopub_port",
+            "stdin_port",
+            "hb_port",
+            "control_port",
         )
+        remote_ip = remote_connection_info["ip"]
 
-        # Save variables necessary to make the connection in the worker
-        worker.ipyclient = ipyclient
-        worker.connection_file = connection_file
-        worker.hostname = hostname
-        worker.sshkey = sshkey
-        worker.password = password
-        worker.restart = restart
-        worker.clear = clear
+        forwarded_ports = {}
+        for port_key in ports_to_forward:
+            try:
+                forwarded_ports[port_key] = await self._forward_port(
+                    self._plugin.get_remote_server(ipyclient.server_id)._ssh_connection,
+                    remote_ip,
+                    remote_connection_info[port_key],
+                )
+            except Exception:
+                raise RuntimeError(
+                    _(
+                        "It was not possible to open an SSH tunnel for the "
+                        "remote kernel. Please check your credentials and the "
+                        "server connection status."
+                    )
+                )
 
-        # Start worker
-        worker.sig_finished.connect(self._finish_kernel_connection)
-        worker.start()
+        return {**remote_connection_info, **forwarded_ports, "ip": "127.0.0.1"}
 
-    def _finish_kernel_connection(self, worker, output, error):
+    @classmethod
+    async def _forward_port(cls, conn, remote_host, remote_port):
+        local = cls._get_free_port()
+        await conn.forward_local_port("", local, remote_host, remote_port)
+        return local
+
+    @staticmethod
+    def _get_free_port():
+        with socket.socket() as s:
+            s.bind(("", 0))
+            return s.getsockname()[1]
+
+    def _connect_to_kernel(self, ipyclient, connection_file, restart=False, clear=True):
         """Finish connecting an IPython console client to a remote kernel."""
-        # Handle errors
-        if error:
-            worker.ipyclient.show_kernel_error(str(error))
-            return
-
         # Create KernelHandler
+        if isinstance(connection_file, dict):
+            new_connection_file = KernelHandler.new_connection_file()
+            with open(new_connection_file, "w") as f:
+                json.dump(connection_file, f)
+            connection_file = new_connection_file
+
         kernel_handler = KernelHandler.from_connection_file(
-            worker.connection_file,
-            worker.hostname,
-            worker.sshkey,
-            worker.password,
-            kernel_ports=output,
+            connection_file,
         )
 
         # Connect client to the kernel
-        if not worker.restart:
-            worker.ipyclient.connect_kernel(kernel_handler)
+        if not restart:
+            ipyclient.connect_kernel(kernel_handler)
         else:
-            worker.ipyclient.replace_kernel(
-                kernel_handler, shutdown_kernel=False, clear=worker.clear
+            ipyclient.replace_kernel(
+                kernel_handler, shutdown_kernel=False, clear=clear,
             )
 
     def _request_kernel_restart(self, ipyclient):
@@ -392,12 +383,9 @@ class RemoteClientContainer(PluginMainContainer):
         """Actions to take when the kernel was restarted by the server."""
         if response:
             kernel_handler = ipyclient.kernel_handler
-            self._open_tunnel_to_kernel(
+            self._connect_to_kernel(
                 ipyclient,
                 kernel_handler.connection_file,
-                kernel_handler.hostname,
-                kernel_handler.sshkey,
-                kernel_handler.password,
                 restart=True,
                 clear=clear,
             )
